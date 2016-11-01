@@ -10,7 +10,7 @@ chai.use(chaiAsPromised);
 
 const expect = chai.expect;
 
-const fibResults = require('../bin/fibonacci.js');
+const fibResults = require('../lib/fibonacci.js');
 
 describe('subFibs', function () {
   it('is the sum of the fibs array', function () {
