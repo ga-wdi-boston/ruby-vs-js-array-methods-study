@@ -22,6 +22,7 @@ By the end of this, developers should be able to:
 
 1.  Fork and clone this repository.
 1.  Change into the new directory.
+1.  `npm install`
 1.  Create and checkout a new branch, named `response`.
 1.  Follow the directions given in [`study.md`](study.md).
 1.  When finished, push to your fork and submit a pull request.
