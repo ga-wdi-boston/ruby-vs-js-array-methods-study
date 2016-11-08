@@ -26,7 +26,7 @@ In `bin/fibonacci.js` please write the following:
 What were some similarities and differences between the Ruby and JS array methods?
 
 ```md
-<!-- your answer here -->
+The fact that both Ruby and JavaScript have a reduce method makes things a little easier for me but I found that things were quite a bit easier when trying to find the even and odd numbers then with JavaScript
 ```
 
 ## COMPARE: JS vs Ruby file reading
@@ -36,7 +36,7 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two funtions.
 
 ```md
-<!-- your answer here -->
+The syntax is quite different but that is the obvious answer. The functions are both written differently because Ruby's method is built within the People's class and the JavaScript function is built as a seperate function from the rest of the code.
 ```
 
 ## PEOPLE COUNT
@@ -47,5 +47,5 @@ What are the differences between this function and the ruby funcion we did
 in class?
 
 ```md
-<!-- your answer here -->
+I find the function in Ruby is way more simple than JavaScripts in this scenario, most of all they are very similar as they are accomplishing the same thing. They check the gender for 'f' and then counts. It is iterated in JavaScript and selected within the array in Ruby.
 ```
