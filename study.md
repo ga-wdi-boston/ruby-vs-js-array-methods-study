@@ -26,7 +26,10 @@ In `bin/fibonacci.js` please write the following:
 What were some similarities and differences between the Ruby and JS array methods?
 
 ```md
-<!-- your answer here -->
+I would say a difference would be in ruby you can just use a method without having
+to later call it in a function as in javascript. However both have the syntax
+with dot .<name of function here>
+Tried writing methods for awhile but couldn't get to run fibonacci.js.
 ```
 
 ## COMPARE: JS vs Ruby file reading
@@ -36,7 +39,9 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two funtions.
 
 ```md
-<!-- your answer here -->
+interstingly it doesn't look like the js file requires the csv file like the ruby file does.
+Both ruby and JS look for the people array.
+Both seem to use new.
 ```
 
 ## PEOPLE COUNT
@@ -47,5 +52,8 @@ What are the differences between this function and the ruby funcion we did
 in class?
 
 ```md
-<!-- your answer here -->
+let women = people.filter(function(x){return x==women}).length
+you had to first define the variable then set it to the array of people with a method to
+filter , unlike in ruby where you could just use methods on an array from the start
+without necessarily having to use a function and a variable.
 ```
