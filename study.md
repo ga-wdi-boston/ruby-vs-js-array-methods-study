@@ -41,7 +41,13 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two funtions.
 
 ```md
-<!-- your answer here -->
+The functions do the same thing, as was said. However, the Ruby version does it
+in a much shorter, more concise way. The Ruby is also easier to read than the
+Javascript. The syntax of Ruby is also less overwrought than in JS. There are
+less methods being used in the Ruby version as well. Further, the JS seems to
+have some sort of error catching, while in Ruby I cannot see anything to that
+effect (although it may be handled by something in there but not explicit).
+The differences between Ruby and JS are fairly pronounced.
 ```
 
 ## PEOPLE COUNT
@@ -52,5 +58,9 @@ What are the differences between this function and the ruby funcion we did
 in class?
 
 ```md
-<!-- your answer here -->
+Here, Ruby and JS are pretty similar. The main differences are syntactical in
+terms of how the function is actually written. (However, I could not get my
+women function to pass the grunt test. Not sure entirely what's going on; I'm
+missing something and I think it is syntax/how to define the 'women' function,
+etc)
 ```
