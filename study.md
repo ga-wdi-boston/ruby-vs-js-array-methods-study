@@ -26,7 +26,14 @@ In `bin/fibonacci.js` please write the following:
 What were some similarities and differences between the Ruby and JS array methods?
 
 ```md
-<!-- your answer here -->
+Reduce and filter can be used for both ruby and js. The structure of the
+methods are similar, but you have define things and do a lot of exterior
+manipulation of the arrays in js.
+
+resources:
+https://zenscript.wordpress.com/2013/12/08/using-javascript-to-filter-even-numbers-from-an-array/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 ```
 
 ## COMPARE: JS vs Ruby file reading
@@ -36,7 +43,10 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two funtions.
 
 ```md
-<!-- your answer here -->
+There is much less code needed in people.rb versus people.js. There are also
+many more variables created and referenced in the js file.
+
+
 ```
 
 ## PEOPLE COUNT
@@ -48,4 +58,6 @@ in class?
 
 ```md
 <!-- your answer here -->
+resources:
+
 ```
