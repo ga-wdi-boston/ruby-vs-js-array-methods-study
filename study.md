@@ -26,7 +26,10 @@ In `bin/fibonacci.js` please write the following:
 What were some similarities and differences between the Ruby and JS array methods?
 
 ```md
-<!-- your answer here -->
+Ruby has many more convenient array methods to help with these simple functions.
+Ruby seemed much more concise but required much documentation reference
+(MDN for me)
+
 ```
 
 ## COMPARE: JS vs Ruby file reading
@@ -36,16 +39,18 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two funtions.
 
 ```md
-<!-- your answer here -->
+The ruby script is only 14 lines and the js scrip is 27! Wow, javascript really
+looks like a mess afer looking at that ruby script. I don't know what else to say.
 ```
 
 ## PEOPLE COUNT
 
 In `lib/people-array.js`, write a function `women` that will count the number of
 women in an array of people.
+
 What are the differences between this function and the ruby funcion we did
 in class?
 
 ```md
-<!-- your answer here -->
+Here we have a fat arrow function an callbacks to an isFemale() function
 ```
