@@ -26,7 +26,13 @@ In `bin/fibonacci.js` please write the following:
 What were some similarities and differences between the Ruby and JS array methods?
 
 ```md
-<!-- your answer here -->
+I used .splice(1) to remove the first element of the array. In ruby, I would
+use .shift method. JS has the .shift method as well, it would return the
+the removed method, whereas in Ruby, it would return the new array.
+.splice() does not exist in Ruby??? I think the equivalent would be slice??
+
+I used .filter() in JS to select numbers in the array that are odd or even. In
+Ruby, I would use .select or .reject methods.
 ```
 
 ## COMPARE: JS vs Ruby file reading
@@ -36,7 +42,8 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two funtions.
 
 ```md
-<!-- your answer here -->
+At first glance, JS code is very long, and does the same thing that Ruby
+acheives in a longer way. Ruby uses a lot less LOC.
 ```
 
 ## PEOPLE COUNT
@@ -47,5 +54,7 @@ What are the differences between this function and the ruby funcion we did
 in class?
 
 ```md
-<!-- your answer here -->
+In JS, I used the .filter() method to filter the women out of an array of
+people.
+In Ruby, I used the .select method to do the same.
 ```
