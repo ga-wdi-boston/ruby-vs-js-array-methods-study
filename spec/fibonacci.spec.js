@@ -14,24 +14,24 @@ const fibResults = require('../lib/fibonacci.js');
 
 describe('subFibs', function () {
   it('is the sum of the fibs array', function () {
-    expect(fibResults.sumFibs).to.equal(88);
+    expect(fibResults.sumFibs()).to.equal(88);
   });
 });
 
 describe('prodFibs', function () {
   it('is the product of the fibs array excluding 0', function (){
-    expect(fibResults.prodFibs).to.equal(2227680);
+    expect(fibResults.prodFibs()).to.equal(2227680);
   });
 });
 
 describe('sumOdd', function () {
   it('is the sum of the odd numbers in the fibs array', function () {
-    expect(fibResults.sumOdd).to.equal(44);
+    expect(fibResults.sumOdd()).to.equal(44);
   });
 });
 
 describe('prodEven', function () {
   it('is the product of the even numbers in the fibs array excluding 0', function (){
-    expect(fibResults.prodEven).to.equal(544);
+    expect(fibResults.prodEven()).to.equal(544);
   });
 });
