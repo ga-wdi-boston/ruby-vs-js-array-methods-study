@@ -26,7 +26,7 @@ In `bin/fibonacci.js` please write the following:
 What were some similarities and differences between the Ruby and JS array methods?
 
 ```md
-<!-- your answer here -->
+There are inherent methods you can use on arrays in both JS and Ruby. You can iterate through arrays. In JS I'm more accustomed to using for loops, while that's not the case in Ruby.
 ```
 
 ## COMPARE: JS vs Ruby file reading
@@ -36,7 +36,7 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two funtions.
 
 ```md
-<!-- your answer here -->
+Way less code required to accomplish the same task in Ruby than in JS. In JS, many more local variables/constants were declared to store the results of different parsing / manipulations. In Ruby, the "getter" and "setter" methods make it much easier to assign values to instance variables and retrieve values. In this instance, it made it much easier to extrapolate what we wanted from the CSV and put it somewhere new...
 ```
 
 ## PEOPLE COUNT
@@ -47,5 +47,5 @@ What are the differences between this function and the ruby funcion we did
 in class?
 
 ```md
-<!-- your answer here -->
+We had to explicitly return a new array in JS rather than using .select in Ruby which automatically returns a new array (and because there is an implicit return in Ruby) so we could extrapolate what we wanted from the "people" array in Ruby (just women), automatically get that new array and then just use .length to tally up how many were in the new array. In JS, I had to explicitly return the new array of women so I could then count them by using .reduce, which is a callback. Otherwise, they seem pretty simliar to me in terms of process. 
 ```
