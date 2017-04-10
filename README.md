@@ -4,7 +4,7 @@
 
 We've learned a lot about Ruby array methods, and you may have noticed that they
 are similar to many JavaScript array methods we've already used. In this study,
-you will use Javascript instead of ruby to solve the same problems we solved in
+you will use JavaScript instead of Ruby to solve the same problems we solved in
 class, and explain the similarities and differences between the two languages.
 
 ## Prerequisites

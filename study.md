@@ -13,7 +13,7 @@ Use `grunt test` to test your code.
 
 ## FIBONACCI
 
-In `bin/fibonacci.js` please write the following:
+In `bin/fibonacci.js` please write the following in **_JavaScript_**:
 1. `sumFibs`. Use reduce to find the sum of the `fibs` array.
 2. `prodFibs`. Use array methods to find the product of the `fibs` array,
     not including 0.
