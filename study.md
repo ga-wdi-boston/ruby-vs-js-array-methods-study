@@ -22,6 +22,8 @@ In `lib/fibonacci.js` please write the following in **_JavaScript_**:
 4. `prodEven`. Use array methods to find the product of the even numbers in the
     `fibs` array, not including 0.
 
+    **Note:** `sumFibs`, `prodFibs`, `sumOdd`, and `prodEven` should be variables that store the result of invoking array methods on the `fibs` array, and not the methods themselves.
+
 
 What were some similarities and differences between the Ruby and JS array methods?
 
