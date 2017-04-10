@@ -13,7 +13,7 @@ Use `grunt test` to test your code.
 
 ## FIBONACCI
 
-In `bin/fibonacci.js` please write the following:
+In `lib/fibonacci.js` please write the following in **_JavaScript_**:
 1. `sumFibs`. Use reduce to find the sum of the `fibs` array.
 2. `prodFibs`. Use array methods to find the product of the `fibs` array,
     not including 0.
@@ -21,6 +21,8 @@ In `bin/fibonacci.js` please write the following:
     `fibs` array.
 4. `prodEven`. Use array methods to find the product of the even numbers in the
     `fibs` array, not including 0.
+
+    **Note:** `sumFibs`, `prodFibs`, `sumOdd`, and `prodEven` should be variables that store the result of invoking array methods on the `fibs` array, and not the methods themselves.
 
 
 What were some similarities and differences between the Ruby and JS array methods?
@@ -33,7 +35,7 @@ What were some similarities and differences between the Ruby and JS array method
 
 Look at the functions in `people.js` and `people.rb`. Both of these functions do
 the same thing: they parse a csv file and enter the pertinent data into an array.
-Explain the similarities and differences between these two funtions.
+Explain the similarities and differences between these two functions.
 
 ```md
 <!-- your answer here -->
@@ -43,7 +45,7 @@ Explain the similarities and differences between these two funtions.
 
 In `lib/people-array.js`, write a function `women` that will count the number of
 women in an array of people.
-What are the differences between this function and the ruby funcion we did
+What are the differences between this function and the ruby function we did
 in class?
 
 ```md
