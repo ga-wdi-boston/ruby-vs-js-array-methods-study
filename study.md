@@ -33,7 +33,7 @@ What were some similarities and differences between the Ruby and JS array method
 
 Look at the functions in `people.js` and `people.rb`. Both of these functions do
 the same thing: they parse a csv file and enter the pertinent data into an array.
-Explain the similarities and differences between these two funtions.
+Explain the similarities and differences between these two functions.
 
 ```md
 <!-- your answer here -->
@@ -43,7 +43,7 @@ Explain the similarities and differences between these two funtions.
 
 In `lib/people-array.js`, write a function `women` that will count the number of
 women in an array of people.
-What are the differences between this function and the ruby funcion we did
+What are the differences between this function and the ruby function we did
 in class?
 
 ```md
