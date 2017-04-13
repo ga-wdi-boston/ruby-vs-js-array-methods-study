@@ -28,7 +28,7 @@ In `lib/fibonacci.js` please write the following in **_JavaScript_**:
 What were some similarities and differences between the Ruby and JS array methods?
 
 ```md
-<!-- your answer here -->
+Both the Ruby and JS methods iterate over the fibonacci array and both of them work the same way.  Ruby is different than JS in that it uses blocks of code for logic and uses array functions or blocks rather than for loops to iterate.
 ```
 
 ## COMPARE: JS vs Ruby file reading
@@ -38,7 +38,7 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two functions.
 
 ```md
-<!-- your answer here -->
+JS uses a parser and a stream to read through the data while passing it to the array.  It iterates using a while loop.  Ruby uses a class to contain the data and uses a foreach to iterate through the data.
 ```
 
 ## PEOPLE COUNT
@@ -49,5 +49,5 @@ What are the differences between this function and the ruby function we did
 in class?
 
 ```md
-<!-- your answer here -->
+In JS, the functions use for loops to iterate rather than blocks.  In addition, JS uses premade functions as callbacks in reduce.  In Ruby, we use blocks of code rather than premade functions which are usually only used on that particular reduce call.
 ```
