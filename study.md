@@ -28,7 +28,7 @@ In `lib/fibonacci.js` please write the following in **_JavaScript_**:
 What were some similarities and differences between the Ruby and JS array methods?
 
 ```md
-<!-- your answer here -->
+For the most part, the methods themselves function in a similar way. Functions (JS) or code blocks (Ruby) are passed to the methods and applied to each element in the array. It's the syntax that is different. In JS, you place the callback within (). In Ruby, the code block fits inside {} or do/end statements.
 ```
 
 ## COMPARE: JS vs Ruby file reading
@@ -38,7 +38,7 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two functions.
 
 ```md
-<!-- your answer here -->
+The most apparent difference is the relative simplicity of the Ruby function. Each function appears to be parsing each element in the People file and adding the element to an array that was initialized as empty.
 ```
 
 ## PEOPLE COUNT
@@ -49,5 +49,5 @@ What are the differences between this function and the ruby function we did
 in class?
 
 ```md
-<!-- your answer here -->
+The method for returning the female elements is "filter" rather than "select". The primary difference was the syntax. Callback functions follow the "(element) => define function" format whereas ruby uses code blocks to achieve the same result "{|element| code block}".
 ```
