@@ -28,7 +28,7 @@ In `lib/fibonacci.js` please write the following in **_JavaScript_**:
 What were some similarities and differences between the Ruby and JS array methods?
 
 ```md
-<!-- your answer here -->
+I'm stopping here tonight because Chris suggested that we spend 2 hours a night on home work and I'm at the 2 hour mark now to be honest.
 ```
 
 ## COMPARE: JS vs Ruby file reading
