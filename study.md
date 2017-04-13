@@ -28,7 +28,7 @@ In `lib/fibonacci.js` please write the following in **_JavaScript_**:
 What were some similarities and differences between the Ruby and JS array methods?
 
 ```md
-<!-- your answer here -->
+They both loop through each object in order to execute and apply a filter.  The Ruby uses blocks to pass filters or conditions on the array.
 ```
 
 ## COMPARE: JS vs Ruby file reading
@@ -38,7 +38,9 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two functions.
 
 ```md
-<!-- your answer here -->
+Both of these files have the same approach. They both take the headers and seem to asign them as keys.  They then push the individuals into the objects.
+
+The difference is how they do it.  The ruby is very succint and utilzes classes to map.  JS uses a function to build it.
 ```
 
 ## PEOPLE COUNT
@@ -49,5 +51,5 @@ What are the differences between this function and the ruby function we did
 in class?
 
 ```md
-<!-- your answer here -->
+We utilized multiple callbacks in the Javascript version while we were able to use one block in Ruby to acheive the same result.
 ```
