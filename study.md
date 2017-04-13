@@ -38,7 +38,8 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two functions.
 
 ```md
-<!-- your answer here -->
+<!-- both add data from csv and create hash/add to a has with that data
+      there is quite a bit more code in the JS file-->
 ```
 
 ## PEOPLE COUNT
@@ -49,5 +50,5 @@ What are the differences between this function and the ruby function we did
 in class?
 
 ```md
-<!-- your answer here -->
+<!-- I'll have to complete this later, running out of steam -->
 ```
