@@ -28,7 +28,14 @@ In `lib/fibonacci.js` please write the following in **_JavaScript_**:
 What were some similarities and differences between the Ruby and JS array methods?
 
 ```md
-<!-- your answer here -->
+Similarities:
+  - Both Ruby and JS array methods use their `reduce` method.
+Differences:
+  - In Ruby, `num.even?` or `num.odd?` are used to check for even or odd numbers.
+  - In JS, the `%` modulo operator boolean test is used to check for even
+     (num % 2 === 0) or odd (num % 2 !== 0) numbers.
+  - Ruby code that uses array methods are usually shorter in length than their
+     JS equivalents.
 ```
 
 ## COMPARE: JS vs Ruby file reading
@@ -38,7 +45,14 @@ the same thing: they parse a csv file and enter the pertinent data into an array
 Explain the similarities and differences between these two functions.
 
 ```md
-<!-- your answer here -->
+Similarities:
+ - Both functions iterate through the data/people.csv file and load data into a
+    people array.
+Differences:
+   - There are several differences between the `people.js` and the `people.rb`
+     functions.  The Ruby function is much smaller in length than its JS
+     function counterpart.  The Ruby function inherits methods from the CSV
+     type and is much easier to use than the JS function.
 ```
 
 ## PEOPLE COUNT
@@ -49,5 +63,7 @@ What are the differences between this function and the ruby function we did
 in class?
 
 ```md
-<!-- your answer here -->
+The Ruby function uses the `select` method and the JS function uses the `filter`
+and the `reduce` methods.  The Ruby function is also shorter than the JS
+function counterpart.
 ```
